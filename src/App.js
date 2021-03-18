@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './components/header';
-import DoctorList from './components/doctorList';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
+import Reviews from './pages/Reviews';
 
 function App() {
     return (
-        <div>
-            <Header />
-            <DoctorList />
-            <DoctorList />
-            <DoctorList />
-        </div>
+        <Router>
+            <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/reviews" exact component={Reviews} />
+            </Switch>
+        </Router>
     );
 }
 
