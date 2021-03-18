@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import ReactStars from 'react-rating-stars-component';
 import { useHistory } from 'react-router-dom';
