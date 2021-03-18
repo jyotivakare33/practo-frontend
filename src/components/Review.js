@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image } from 'react-bootstrap';
 import ReactStars from 'react-rating-stars-component';
 import doctor from './doctor.svg';
